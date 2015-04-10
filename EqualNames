@@ -1,0 +1,10 @@
+public class EqualNames {
+    public static void main(String[] args) {
+        String i = "Volodymyr";
+        String j = "Volodymyr";
+
+        if (i.equals(j)) {
+            System.out.print("Equal names!");
+        }
+    }
+}
